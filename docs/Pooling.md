@@ -29,7 +29,7 @@ max pooling 常用的 ![](https://www.zhihu.com/equation?tex=s%3D2)
 
 （1）保留主要特征的同时减少参数和计算量，防止过拟合。
 
-（2）invariance(不变性)，这种不变性包括 translation(平移)，rotation(旋转)，scale(尺度)。
+（2）invariance(不变性)，这种不变性包括 translation(平移)，rotation(旋转)，scale(尺度)。降低卷积层对目标位置敏感度。
 
 Pooling 层说到底还是一个特征选择，信息过滤的过程。也就是说我们损失了一部分信息，这是一个和计算性能的一个妥协，随着运算速度的不断提高，我认为这个妥协会越来越小。
 
